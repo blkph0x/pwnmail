@@ -33,7 +33,7 @@ check_and_create() {
 }
 
 install_dependencies() {
-    apt update && apt install -y postfix dovecot-core dovecot-imapd dovecot-pop3d certbot opendkim opendkim-tools > /dev/null 2>&1
+    apt update && apt install -y postfix dovecot-core dovecot-imapd dovecot-pop3d certbot opendkim opendkim-tools
     log "Dependencies installed."
 }
 
